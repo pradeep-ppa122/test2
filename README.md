@@ -9,3 +9,9 @@ filter(...)
     f = filter(lambda i:i%2 ==0, l)
     g = filter(lambda i:i%2 <>0, l)
     
+    >>> for i in l:
+...   if(i%2==0):
+...     total += i*i
+...
+>>> total
+    
